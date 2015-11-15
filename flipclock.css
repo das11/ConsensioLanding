@@ -56,7 +56,7 @@
 .flip-clock-wrapper {
   text-align: center;
   position: relative;
-  width: 100%;
+  width: default;
   margin: 1em;
 }
 
