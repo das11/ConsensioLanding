@@ -9,8 +9,8 @@ html,body
 }
 
 @font-face{
-	font-family: 'pol';
-	src: url("fonts/LEVIBRUSH.TTF");
+	font-family: 'loop';
+	src: url("fonts/Roboto-Light.ttf");
 }
 
 #bg-image{
@@ -35,7 +35,7 @@ html,body
 	position: fixed;
 	margin-left: 35%;
 	top: 65px;
-	font-family: 'pol';
+	font-family: 'loop';
 	font-size: 65px;
 	
 
