@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="loading">
 <head>
 	<title>Hello!</title>
 
@@ -13,6 +13,46 @@
 	<!--## using flipclock #kdas-->
 	<script src="flipclock.js"></script>
 
+	<style>
+			html {
+				-webkit-transition: background-color 1s;
+				transition: background-color 1s;
+			}
+			/* External gif loi asu */
+			html, body { min-height: 100%; }
+			html.loading {
+				background: #565656 url('http://code.jquery.com/mobile/1.3.1/images/ajax-loader.gif') no-repeat 50% 50%;
+				-webkit-transition: background-color 0;
+				transition: background-color 0;
+			}
+			body {
+				-webkit-transition: opacity 1s ease-in;
+				transition: opacity 1s ease-in;
+			}
+			html.loading body {
+				opacity: 0;
+				-webkit-transition: opacity 0;
+				transition: opacity 0;
+			}
+			button {
+				background: #00A3FF;
+				color: white;
+				padding: 0.2em 0.5em;
+				font-size: 1.5em;
+			}
+		</style>
+		<script>
+			var html = document.getElementsByTagName('html')[0];
+			var removeLoading = function() {
+				// In a production application you would remove the loading class when your
+				// application is initialized and ready to go.  Here we just artificially wait
+				// 3 seconds before removing the class.
+				setTimeout(function() {
+					html.className = html.className.replace(/loading/, '');
+				}, 5000);
+			};
+			removeLoading();
+		</script>
 	
 </head>
 <body>
@@ -20,7 +60,6 @@
 	<!--
 	<img src="test.jpg" class="blur">-->
 
-	
 	<div class="container">
 
 		<div id="bg-image">
@@ -35,6 +74,8 @@
 
 	</div>
 
+	
+	
 
 	<!--## script - onHover #kdas -->
 	<script src="move.js"></script>
