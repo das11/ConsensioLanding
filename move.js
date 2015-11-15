@@ -4,6 +4,12 @@ $('#bg-image').mousemove(function(e){
     $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
 });
 
+var clock = $('.clock').FlipClock(new Date("February 5, 2016 10:00:00"),{
+    clockFace: 'DailyCounter',
+    countdown: true
+    });  
+
+//ALGO 2, calc done in secs #kdas
 /*
 var clock = $('.clock').FlipClock(3600 * 24 * 51, {
 		clockFace: 'DailyCounter',
@@ -12,7 +18,8 @@ var clock = $('.clock').FlipClock(3600 * 24 * 51, {
 	});
 */
 
-var date = new Date(2016, 2, 5);
+//ALGO 1, interfacing in days, calc in secs #kdas
+/*var date = new Date(2016, 1, 5);
     var now = new Date();
     var diff = (date.getTime()/1000) - (now.getTime()/1000);
 
@@ -20,3 +27,4 @@ var date = new Date(2016, 2, 5);
         clockFace: 'DailyCounter',
         countdown: true
     });  
+    */
