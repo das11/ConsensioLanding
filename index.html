@@ -13,6 +13,7 @@
 	<!--## using flipclock #kdas-->
 	<script src="flipclock.js"></script>
 
+	<!-- loader, inline to enable faster loading #kdas-->
 	<style>
 			html {
 				-webkit-transition: background-color 1s;
@@ -41,6 +42,8 @@
 				font-size: 1.5em;
 			}
 		</style>
+
+		<!--loader time script #kdas-->
 		<script>
 			var html = document.getElementsByTagName('html')[0];
 			var removeLoading = function() {
@@ -52,6 +55,14 @@
 				}, 10000);
 			};
 			removeLoading();
+		</script>
+
+		<script type="text/javascript">
+
+		  if (screen.width <= 800) {
+		    window.location = "index-m.html";
+		  }
+
 		</script>
 	
 </head>
