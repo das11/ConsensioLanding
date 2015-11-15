@@ -35,12 +35,6 @@ html,body
 
 }
 
-.translate{
-	background:url("test.jpg") -25px -50px;
-	-webkit-transition: background-image 0.2s ease-in-out;
-	transition: background-image 0.2s ease-in-out;
-}
-
 .footer{
 	position: fixed;
 	bottom: 10px;
