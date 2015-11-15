@@ -9,8 +9,8 @@ html,body
 }
 
 @font-face{
-	font-family: 'pol';
-	src: url("fonts/LEVIBRUSH.ttf");
+	font-family: 'loop';
+	src: url("fonts/LEVIBRUSH.TTF");
 }
 
 #bg-image{
@@ -24,23 +24,24 @@ html,body
 
 }
 
-#footer{
-	position: fixed;
-	bottom: 10px;
-	margin-left: 50%; 
-	width: 100%;
-}
 
-.header{
+#header{
 	position: fixed;
 	margin-left: 35%;
 	top: 65px;
-	font-family: 'pol';
+	font-family: 'loop';
 	font-size: 65px;
 	
 
 }
 
+.footer{
+	position: fixed;
+	bottom: 10px;
+	margin-left: 50%; 
+	width: 100%;
+	font-family: 'loop'
+}
 
 .blur{
 
