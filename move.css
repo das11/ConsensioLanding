@@ -31,7 +31,7 @@ html,body
 	width: 100%;
 }
 
-.header{
+#header{
 	position: fixed;
 	margin-left: 35%;
 	top: 65px;
