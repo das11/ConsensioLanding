@@ -24,13 +24,6 @@ html,body
 
 }
 
-#footer{
-	position: fixed;
-	bottom: 10px;
-	margin-left: 50%; 
-	width: 100%;
-	font-family: 'loop'
-}
 
 #header{
 	position: fixed;
@@ -42,6 +35,13 @@ html,body
 
 }
 
+.footer{
+	position: fixed;
+	bottom: 10px;
+	margin-left: 50%; 
+	width: 100%;
+	font-family: 'loop'
+}
 
 .blur{
 
