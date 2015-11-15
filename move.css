@@ -26,10 +26,10 @@ html,body
 }
 
 
-#header{
-	position: fixed;
-	margin-left: 35%;
-	top: 65px;
+.header{
+	position: absolute;
+	left: 30%;
+	top: 20%;
 	font-family: 'loop';
 	font-size: 65px;
 
