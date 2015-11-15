@@ -38,7 +38,7 @@ html,body
 .footer{
 	position: fixed;
 	bottom: 10px;
-	margin-left: 50%; 
+	margin-left: 45%; 
 	width: 100%;
 	font-family: 'loop'
 }
